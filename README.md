@@ -12,9 +12,9 @@ Version of the kernel used in this tutorial:
 
 Forked Repo Note:
 
-    As in Armbian 22.02, the problem still exists. But the original version patch would fail for the dts values changed.
+As in Armbian 22.02, the problem still exists. But the original version patch would fail for the dts values changed.
 
-    Use `sun8i-h3-nanopi-neo.5.15.25.patch` to patch the new version.
+Use `sun8i-h3-nanopi-neo.5.15.25.patch` to patch the new version.
 
 ## Quick solution
 
