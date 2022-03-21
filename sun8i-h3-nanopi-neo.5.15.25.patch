@@ -1,0 +1,18 @@
+--- sun8i-h3-nanopi-neo.dts.orig	2022-03-19 19:18:50.462623046 +0800
++++ sun8i-h3-nanopi-neo.dts	2022-03-19 19:23:25.183704379 +0800
+@@ -547,6 +547,7 @@
+ 			clocks = <0x03 0x1b>;
+ 			clock-names = "stmmaceth";
+ 			status = "okay";
++			local-mac-address = [00 00 00 00 00 00];
+ 			phy-handle = <0x16>;
+ 			phy-mode = "mii";
+ 			allwinner,leds-active-low;
+@@ -1113,6 +1114,7 @@
+ 		mmc1 = "/soc/mmc@1c10000";
+ 		mmc2 = "/soc/mmc@1c11000";
+ 		serial0 = "/soc/serial@1c28000";
++		ethernet0 = "/soc/ethernet@1c30000";
+ 	};
+ 
+ 	opp-table-cpu {
