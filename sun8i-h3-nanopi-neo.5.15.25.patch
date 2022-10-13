@@ -1,5 +1,5 @@
---- sun8i-h3-nanopi-neo.dts.orig	2022-03-19 19:18:50.462623046 +0800
-+++ sun8i-h3-nanopi-neo.dts	2022-03-19 19:23:25.183704379 +0800
+--- orig/sun8i-h3-nanopi-neo.dts	2022-03-19 19:18:50.462623046 +0800
++++ new/sun8i-h3-nanopi-neo.dts	2022-03-19 19:23:25.183704379 +0800
 @@ -547,6 +547,7 @@
  			clocks = <0x03 0x1b>;
  			clock-names = "stmmaceth";
