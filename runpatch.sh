@@ -11,5 +11,4 @@ mv /boot/dtb/{sun8i-h3-nanopi-neo.dtb,sun8i-h3-nanopi-neo.dtb.orig}
 dtc -I dtb -O dts -o sun8i-h3-nanopi-neo.dts /boot/dtb/sun8i-h3-nanopi-neo.dtb.orig
 [[ $(uname -r) == 5.* ]] && patch -p1 < sun8i-h3-nanopi-neo.5.15.25.patch
 [[ $(uname -r) == 4.* ]] && patch -p1 < sun8i-h3-nanopi-neo.dts.patch
-dtc -I dts -O dtb -o sun8i-h3-nanopi-neo.dtb sun8i-h3-nanopi-neo.dts
-cp sun8i-h3-nanopi-neo.dtb /boot/dtb
+dtc -I dts -O dtb -o /boot/dtb/sun8i-h3-nanopi-neo.dtb sun8i-h3-nanopi-neo.dts
